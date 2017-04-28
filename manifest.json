@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Facebook Multi Highlighter Extension.",
+  "description": "Highlights voilated words in SRT.",
+  "version": "1.0",
+  "icons": { 
+      "48": "facebook.png"
+  },
+  "permissions": [
+    "activeTab", "notifications"
+  ],
+  "browser_action": {
+    "default_icon": "facebook.png",
+    "default_title": "Highlighter - Facebook Videos"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://review.intern.facebook.com/intern/review/training/*", "file://*/*", "https://www.w3schools.com/html/default.asp"],
+      "js": ["js/jquery-2.2.4.min.js", "js/underscore-min.js", "highlight.js", "app.js"]
+    }
+  ],
+  "background" : {
+    "scripts": ["background.js"]
+  }
+}
