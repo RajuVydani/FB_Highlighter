@@ -1,4 +1,4 @@
-
+//4.push 2 files.
 chrome.browserAction.onClicked.addListener(function(tab) {
   // No tabs or host permissions needed!
   alert('BrowserAction');
