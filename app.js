@@ -1,4 +1,3 @@
-//toolbar test3
 console.log("Facebook -Highlighter Extension !!!");
 
 window.onload = function() {
