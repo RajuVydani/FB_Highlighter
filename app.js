@@ -1,4 +1,5 @@
 //1.push changes by, team-commit&push
+//2.push changes by, team-commit
 console.log("Facebook -Highlighter Extension !!!");
 
 window.onload = function() {
