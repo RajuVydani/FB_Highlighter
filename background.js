@@ -1,4 +1,5 @@
 //4.push 2 files.
+//5.push 2 files by using PushToUpstream
 chrome.browserAction.onClicked.addListener(function(tab) {
   // No tabs or host permissions needed!
   alert('BrowserAction');

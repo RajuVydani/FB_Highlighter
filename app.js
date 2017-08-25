@@ -1,6 +1,7 @@
 //1.push changes by, team-commit&push
 //2.push changes by, team-commit/Team-Repository-PushToUpstream
-//4.push 2 files.
+//4.push 2 files by using push branch
+//5.push 2 files by using PushToUpstream
 console.log("Facebook -Highlighter Extension !!!");
 
 window.onload = function() {
