@@ -1,6 +1,4 @@
-//4.push 2 files.
-//5.push 2 files by using PushToUpstream
-//6.testing unstaging-2
+//remote update
 chrome.browserAction.onClicked.addListener(function(tab) {
   // No tabs or host permissions needed!
   alert('BrowserAction');
